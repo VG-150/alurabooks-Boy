@@ -6,12 +6,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.cabeçalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.cabecalho {
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .container {
@@ -30,6 +30,7 @@ img {
 
 .lista-menu {
     display: none;
+    position: absolute;
 }
 
 .container__botao:checked ~ .lista-menu {
